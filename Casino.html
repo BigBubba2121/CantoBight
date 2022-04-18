@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice</title>
+    <script src="dicegame.js"></script>
+</head>
+
+<body>
+    
+          
+    <h1>An even money bet, made on the first roll of the dice (known as the “come out roll”).<br>
+        You win if a 7 or 11 roll(a natural), or lose if 2, 3, or 12 roll (known as “craps”).<br>
+        Any other number that rolls becomes the “point” and the point must roll again before a 7 to win.
+</h1>
+    
+    <p>Wins: <span id="wins">0</span> Losses: <span id="losses">0</span>
+    </p>
+
+    <p>Point: <span id="show">0</span> 
+    </p>
+
+    <p>Total: <span id="total">0</span> <p>Rolls: <span id="rolls">0</span>
+    </p>
+
+<img id="myImg"  src="dice1.png" width="50px" height="50px">
+<img id="myImg2"  src="dice1.png" width="50px" height="50px">
+<button onclick="rollDice();">Test Your Luck!</button>
+<button onclick="clear();">Clear</button>
+    
+</body>
+
+</html>
