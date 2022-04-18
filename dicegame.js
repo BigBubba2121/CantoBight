@@ -83,7 +83,7 @@ function checkCraps(){
     }
     return false;
 }
-/* rolling natural function if 7 or 11 on roll when point is 0 you win and ass counter to win*/
+/* rolling natural function if 7 or 11 on roll when point is 0 you win and adds counter to win*/
 /* also checks if not in point so if you roll 7 you lose during point*/
 function checkNatural(){
     if(total == 7 || total == 11){
@@ -133,13 +133,5 @@ function determineOutcome(total){
 
      document.getElementById('wins').innerHTML = wins;
      document.getElementById('losses').innerHTML = losses;
-}  
-
-function clear(){
-       wins.innerHTML = 0;
-       losses.innerHTML = 0;
-       total.innerHTML = 0;
-       rolls.innerHTML = 0;
-       show.innerHTML = 0;
-};
+} 
 
